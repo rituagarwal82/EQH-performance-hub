@@ -40,9 +40,9 @@ const csrfMiddleware = createCsrfMiddleware({
 
 // Every server function is internal: the browser attaches the signed-in user's
 // token (attachSupabaseAuth) and the server refuses the call without a valid one
-// (authGate — same check as before, but skipped while the temporary
-// app_settings.open_access switch is 'true'). Scheduled jobs never come through
-// here — they call the /api/public routes with their own key.
+// unless that user's email is on the owner allow-list (authGate, owner_emails
+// table). Scheduled jobs never come through here — they call the /api/public
+// routes with their own secret (cron-auth.server).
 export const startInstance = createStart(() => ({
   requestMiddleware: [errorMiddleware, csrfMiddleware],
   functionMiddleware: [attachSupabaseAuth, authGate],

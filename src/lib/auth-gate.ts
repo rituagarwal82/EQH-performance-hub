@@ -3,16 +3,14 @@ import { createMiddleware } from "@tanstack/react-start";
 /**
  * Global server-function gate.
  *
- * Normally: every server function requires the signed-in user's bearer token.
- * While the temporary `app_settings.open_access = 'true'` switch is on: the
- * check is skipped so the app can be built without signing in. Flip the
- * setting back to 'false' and the original behaviour returns with no code
- * change.
+ * Every server function requires (1) a valid signed-in bearer token and
+ * (2) that the signed-in email is on the owner allow-list held in the
+ * `owner_emails` table. The old `app_settings.open_access` build switch is no
+ * longer consulted (security fix, 16 Nov 2026): the hub holds the cash ledger,
+ * buyers and spend, so it must never open without sign-in.
  */
 export const authGate = createMiddleware({ type: "function" }).server(async ({ next }) => {
-  const { isOpenAccess } = await import("./open-access.server");
-  if (await isOpenAccess()) return next();
-  const { requireSignedIn } = await import("./auth-verify.server");
-  await requireSignedIn();
+  const { requireOwner } = await import("./auth-verify.server");
+  await requireOwner();
   return next();
 });
