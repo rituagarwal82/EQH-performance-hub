@@ -1,0 +1,13 @@
+GRANT EXECUTE ON FUNCTION public.metric_components(date, date) TO eqh_ask_ro;
+GRANT EXECUTE ON FUNCTION public.placement_rollup(date, date) TO eqh_ask_ro;
+GRANT EXECUTE ON FUNCTION public.metric_series(date, date, text) TO eqh_ask_ro;
+GRANT EXECUTE ON FUNCTION public.entity_rollup(date, date, text) TO eqh_ask_ro;
+GRANT EXECUTE ON FUNCTION public.ledger_daily(date, date, text) TO eqh_ask_ro;
+GRANT EXECUTE ON FUNCTION public.ledger_monthly(date, date, text) TO eqh_ask_ro;
+GRANT EXECUTE ON FUNCTION public.ledger_tier_rollup(date, date) TO eqh_ask_ro;
+GRANT EXECUTE ON FUNCTION public.sales_reconciliation(date, date) TO eqh_ask_ro;
+GRANT EXECUTE ON FUNCTION public.zoom_event_rows(date, date, boolean) TO eqh_ask_ro;
+GRANT EXECUTE ON FUNCTION public.zoom_retention_curve(text) TO eqh_ask_ro;
+GRANT EXECUTE ON FUNCTION public.lead_tracking_coverage(integer) TO eqh_ask_ro;
+GRANT EXECUTE ON FUNCTION public.lead_page_rollup(date, date) TO eqh_ask_ro;
+GRANT EXECUTE ON FUNCTION public.lead_agency_rollup(date, date) TO eqh_ask_ro;

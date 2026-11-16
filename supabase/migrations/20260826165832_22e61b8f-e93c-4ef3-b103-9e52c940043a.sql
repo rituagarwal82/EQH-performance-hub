@@ -1,0 +1,1 @@
+REVOKE EXECUTE ON FUNCTION public.upsert_ledger_inflow(jsonb) FROM authenticated;

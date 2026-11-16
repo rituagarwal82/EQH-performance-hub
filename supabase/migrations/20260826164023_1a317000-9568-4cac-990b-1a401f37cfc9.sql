@@ -1,0 +1,1 @@
+revoke execute on function public.ledger_reconciliation(int, text) from authenticated;

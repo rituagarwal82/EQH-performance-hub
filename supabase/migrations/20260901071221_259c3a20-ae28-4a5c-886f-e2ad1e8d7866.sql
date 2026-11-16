@@ -1,0 +1,16 @@
+revoke all on function public.account_matured_sale_rate(date, date) from anon, authenticated, public;
+revoke all on function public.concept_ledger(date, date) from anon, authenticated, public;
+revoke all on function public.persona_medians(integer) from anon, authenticated, public;
+revoke all on function public.concept_weekly_stats(date) from anon, authenticated, public;
+revoke all on function public.portfolio_balance(integer) from anon, authenticated, public;
+revoke all on function public.demo_persona_audit(date, date) from anon, authenticated, public;
+revoke all on function public.scaling_inputs(date) from anon, authenticated, public;
+revoke all on function public.upsert_creative_scripts(jsonb, text) from anon, authenticated, public;
+grant execute on function public.account_matured_sale_rate(date, date) to service_role;
+grant execute on function public.concept_ledger(date, date) to service_role;
+grant execute on function public.persona_medians(integer) to service_role;
+grant execute on function public.concept_weekly_stats(date) to service_role;
+grant execute on function public.portfolio_balance(integer) to service_role;
+grant execute on function public.demo_persona_audit(date, date) to service_role;
+grant execute on function public.scaling_inputs(date) to service_role;
+grant execute on function public.upsert_creative_scripts(jsonb, text) to service_role;

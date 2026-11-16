@@ -1,0 +1,1 @@
+GRANT EXECUTE ON FUNCTION public.sabhi_first_regs(date,date), public.sabhi_sales(date,date), public.sabhi_chain(date,date), public.sabhi_ads(date,date) TO supabase_read_only_user;

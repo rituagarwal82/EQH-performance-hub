@@ -1,0 +1,440 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789129936858,
+      "tag": "0000_source_dictionary_final_amendment",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789130449352,
+      "tag": "0001_meta_by_agency_and_legacy_label",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1789130826862,
+      "tag": "0002_agency_display_names",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1789137437704,
+      "tag": "0003_account_role_and_cadence_aware_feed_health",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1789188626433,
+      "tag": "0004_ad_fields_source_layer",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1789188678615,
+      "tag": "0005_fix_ad_fields_layer_predicate",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1789368517003,
+      "tag": "0006_ts_sabhi_and_ledger_team_source_layer",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1789368560504,
+      "tag": "0007_grant_source_month_matrix",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1789379108388,
+      "tag": "0008_source_precompute",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1789379450232,
+      "tag": "0009_source_precompute_fast_rebuild",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1789379649194,
+      "tag": "0010_team_source_register",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1789379692757,
+      "tag": "0011_team_register_loader",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1789387252592,
+      "tag": "0012_agency_report_phase_a",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1789387294357,
+      "tag": "0013_agency_goldens_in_runner",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1789387587208,
+      "tag": "0014_parami_agency_label",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1789387979860,
+      "tag": "0015_one_attribution_truth_and_incremental_source",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1789388037785,
+      "tag": "0016_fix_incremental_ad_fields_layer",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1789388283472,
+      "tag": "0017_restore_symmetry_function_grants",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1789388328474,
+      "tag": "0018_basis_symmetry_null_ownership",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1789389062175,
+      "tag": "0019_person_links_phone_fallback",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1789389457910,
+      "tag": "0020_cohort_split_and_golden_wiring",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1789389504668,
+      "tag": "0021_wire_cohort_return_golden",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1789390160437,
+      "tag": "0022_owner_trust_cleanup",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1789390249200,
+      "tag": "0023_settle_paid_l1_cash_definition",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1789390588291,
+      "tag": "0024_nolead_owner_summary",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1789455072755,
+      "tag": "0025_date_effective_ad_account_ownership",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1789455124497,
+      "tag": "0026_agency_report_uses_dated_ownership",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1789838339897,
+      "tag": "0027_freshness_handover_lead_agency_fixes",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1789838820774,
+      "tag": "0028_bound_refresh_lead_agency",
+      "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "7",
+      "when": 1789838970036,
+      "tag": "0029_talks_offline_events_family",
+      "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "7",
+      "when": 1789841285010,
+      "tag": "0030_safety_net_missed_runs_recency_credentials",
+      "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1789841344208,
+      "tag": "0031_job_watch_time_format_and_grace",
+      "breakpoints": true
+    },
+    {
+      "idx": 32,
+      "version": "7",
+      "when": 1789897787560,
+      "tag": "0032_owner_rulings",
+      "breakpoints": true
+    },
+    {
+      "idx": 33,
+      "version": "7",
+      "when": 1789898241432,
+      "tag": "0033_daily_status_email",
+      "breakpoints": true
+    },
+    {
+      "idx": 34,
+      "version": "7",
+      "when": 1789905553060,
+      "tag": "0034_recording_stopped_wording_and_august_resign",
+      "breakpoints": true
+    },
+    {
+      "idx": 35,
+      "version": "7",
+      "when": 1789906583644,
+      "tag": "0035_daily_email_month_block",
+      "breakpoints": true
+    },
+    {
+      "idx": 36,
+      "version": "7",
+      "when": 1789906608013,
+      "tag": "0036_daily_email_new_sale_cash",
+      "breakpoints": true
+    },
+    {
+      "idx": 37,
+      "version": "7",
+      "when": 1789906641927,
+      "tag": "0037_daily_email_month_block_fix",
+      "breakpoints": true
+    },
+    {
+      "idx": 38,
+      "version": "7",
+      "when": 1789906979373,
+      "tag": "0038_revert_daily_email_cash_definition",
+      "breakpoints": true
+    },
+    {
+      "idx": 39,
+      "version": "7",
+      "when": 1789907345776,
+      "tag": "0039_ad_performance_and_permalink",
+      "breakpoints": true
+    },
+    {
+      "idx": 40,
+      "version": "7",
+      "when": 1789907412574,
+      "tag": "0040_creative_retry_targets",
+      "breakpoints": true
+    },
+    {
+      "idx": 41,
+      "version": "7",
+      "when": 1789907664940,
+      "tag": "0041_channel_traced_registrations",
+      "breakpoints": true
+    },
+    {
+      "idx": 42,
+      "version": "7",
+      "when": 1789907807823,
+      "tag": "0042_weekly_agency_rollup",
+      "breakpoints": true
+    },
+    {
+      "idx": 43,
+      "version": "7",
+      "when": 1789908631076,
+      "tag": "0043_weekly_email_log",
+      "breakpoints": true
+    },
+    {
+      "idx": 44,
+      "version": "7",
+      "when": 1789970080612,
+      "tag": "0044_tracking_status_by_matched_leads",
+      "breakpoints": true
+    },
+    {
+      "idx": 45,
+      "version": "7",
+      "when": 1789971531382,
+      "tag": "0045_script_link_proposals",
+      "breakpoints": true
+    },
+    {
+      "idx": 46,
+      "version": "7",
+      "when": 1790008650952,
+      "tag": "0046_concept_draft_scripts",
+      "breakpoints": true
+    },
+    {
+      "idx": 47,
+      "version": "7",
+      "when": 1790094786741,
+      "tag": "0047_ask_knowledge",
+      "breakpoints": true
+    },
+    {
+      "idx": 48,
+      "version": "7",
+      "when": 1790095245752,
+      "tag": "0048_ask_ro_function_grants",
+      "breakpoints": true
+    },
+    {
+      "idx": 49,
+      "version": "7",
+      "when": 1790095308829,
+      "tag": "0049_ask_run_sql_timeout_25s",
+      "breakpoints": true
+    },
+    {
+      "idx": 50,
+      "version": "7",
+      "when": 1790095642847,
+      "tag": "0050_tm_payment_amounts_coupons_currency",
+      "breakpoints": true
+    },
+    {
+      "idx": 51,
+      "version": "7",
+      "when": 1790095947932,
+      "tag": "0051_tm_sales_price_from_all_l1_payments",
+      "breakpoints": true
+    },
+    {
+      "idx": 52,
+      "version": "7",
+      "when": 1790096433190,
+      "tag": "0052_promotions_and_price_mix",
+      "breakpoints": true
+    },
+    {
+      "idx": 53,
+      "version": "7",
+      "when": 1790097427740,
+      "tag": "0053_actual_cash_not_assumed_price",
+      "breakpoints": true
+    },
+    {
+      "idx": 54,
+      "version": "7",
+      "when": 1790097464144,
+      "tag": "0054_tm_sales_expected_price_from_offer",
+      "breakpoints": true
+    },
+    {
+      "idx": 55,
+      "version": "7",
+      "when": 1790331094459,
+      "tag": "0055_daily_email_evening_and_sale_sources",
+      "breakpoints": true
+    },
+    {
+      "idx": 56,
+      "version": "7",
+      "when": 1790361504362,
+      "tag": "0056_sale_sources_duplicate_rule",
+      "breakpoints": true
+    },
+    {
+      "idx": 57,
+      "version": "7",
+      "when": 1790438010847,
+      "tag": "0057_sabhi_agency_emails",
+      "breakpoints": true
+    },
+    {
+      "idx": 58,
+      "version": "7",
+      "when": 1790438033613,
+      "tag": "0058_sabhi_read_grants",
+      "breakpoints": true
+    },
+    {
+      "idx": 59,
+      "version": "7",
+      "when": 1790444988331,
+      "tag": "0059_sabhi_at_price_moment",
+      "breakpoints": true
+    },
+    {
+      "idx": 60,
+      "version": "7",
+      "when": 1790654855365,
+      "tag": "0060_tm_affiliate_columns",
+      "breakpoints": true
+    },
+    {
+      "idx": 61,
+      "version": "7",
+      "when": 1790654919346,
+      "tag": "0061_tm_row_counts",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+REVOKE EXECUTE ON FUNCTION public.refresh_lead_attribution() FROM authenticated;

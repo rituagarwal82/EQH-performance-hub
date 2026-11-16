@@ -1,0 +1,1 @@
+REVOKE ALL ON FUNCTION public.cohort_backend_return(date, date) FROM anon, authenticated;

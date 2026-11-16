@@ -1,0 +1,3 @@
+DO $$ DECLARE i integer; n integer; BEGIN
+  FOR i IN 0..3 LOOP SELECT public.rebuild_unified_source_chunk(i, 8) INTO n; END LOOP;
+END $$;

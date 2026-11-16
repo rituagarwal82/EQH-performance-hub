@@ -1,0 +1,10 @@
+REVOKE EXECUTE ON FUNCTION public.contract_drift() FROM anon;
+REVOKE EXECUTE ON FUNCTION public.run_golden_tests(text,text) FROM anon, authenticated;
+REVOKE EXECUTE ON FUNCTION public.verify_deploy(text,text) FROM anon, authenticated;
+REVOKE EXECUTE ON FUNCTION public.contract_eval(text,date,date) FROM anon;
+REVOKE EXECUTE ON FUNCTION public.deploy_status() FROM anon;
+REVOKE EXECUTE ON FUNCTION public.golden_status() FROM anon;
+REVOKE EXECUTE ON FUNCTION public.measured_ascension() FROM anon;
+REVOKE EXECUTE ON FUNCTION public.metric_components(date,date) FROM anon;
+REVOKE EXECUTE ON FUNCTION public.zoom_event_rows(date,date,boolean) FROM anon;
+REVOKE EXECUTE ON FUNCTION public.metric_contract_versioning() FROM public, anon, authenticated;

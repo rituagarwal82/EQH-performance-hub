@@ -1,0 +1,1 @@
+ALTER ROLE eqh_ask_ro BYPASSRLS;

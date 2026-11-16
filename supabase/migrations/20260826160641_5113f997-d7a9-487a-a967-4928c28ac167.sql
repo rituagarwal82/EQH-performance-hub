@@ -1,0 +1,1 @@
+ALTER VIEW public.lead_attribution SET (security_invoker = true);

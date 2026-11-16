@@ -1,0 +1,1 @@
+ALTER TABLE public.zoom_sessions ALTER COLUMN participants_status DROP NOT NULL;

@@ -1,0 +1,1 @@
+GRANT EXECUTE ON FUNCTION public.source_month_matrix(date, date) TO authenticated, service_role, anon;

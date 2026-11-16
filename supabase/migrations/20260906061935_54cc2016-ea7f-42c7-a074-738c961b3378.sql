@@ -1,0 +1,16 @@
+revoke execute on function public.judge_yield_of(text, integer, uuid, timestamptz) from public;
+revoke execute on function public.judge_yield(uuid) from public;
+revoke execute on function public.is_webinar_off_day(date) from public;
+revoke execute on function public.meta_accounts_uncovered(date) from public;
+revoke execute on function public.ledger_day_short(date) from public;
+revoke execute on function public.sync_recent_runs(integer) from public;
+revoke execute on function public.inv_cron_manifest_rows() from public;
+revoke execute on function public.inv_cron_alive_rows() from public;
+grant execute on function public.judge_yield_of(text, integer, uuid, timestamptz) to service_role;
+grant execute on function public.judge_yield(uuid) to service_role;
+grant execute on function public.is_webinar_off_day(date) to service_role;
+grant execute on function public.meta_accounts_uncovered(date) to service_role;
+grant execute on function public.ledger_day_short(date) to service_role;
+grant execute on function public.sync_recent_runs(integer) to service_role;
+grant execute on function public.inv_cron_manifest_rows() to service_role;
+grant execute on function public.inv_cron_alive_rows() to service_role;

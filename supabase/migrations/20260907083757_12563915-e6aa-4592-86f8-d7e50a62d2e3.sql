@@ -1,0 +1,12 @@
+ALTER FUNCTION public.metric_components(date, date) SET statement_timeout = '60s';
+ALTER FUNCTION public.sales_reconciliation(date, date) SET statement_timeout = '60s';
+ALTER FUNCTION public.zoom_event_rows(date, date, boolean) SET statement_timeout = '60s';
+ALTER FUNCTION public.zoom_session_rows(date, date, boolean) SET statement_timeout = '60s';
+ALTER FUNCTION public.ledger_daily(date, date, text) SET statement_timeout = '60s';
+ALTER FUNCTION public.ledger_paid_daily(date, date) SET statement_timeout = '60s';
+ALTER FUNCTION public.ledger_monthly(date, date, text) SET statement_timeout = '60s';
+ALTER FUNCTION public.entity_rollup(date, date, text) SET statement_timeout = '60s';
+ALTER FUNCTION public.lead_page_rollup(date, date) SET statement_timeout = '60s';
+ALTER FUNCTION public.placement_rollup(date, date) SET statement_timeout = '60s';
+ALTER FUNCTION public.concept_ledger(date, date) SET statement_timeout = '60s';
+ALTER FUNCTION public.analyst_decomposition(date) SET statement_timeout = '60s';
